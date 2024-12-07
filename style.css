@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #4dabcae0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(45deg, #4A90E2, #50E3C2);
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-top: 10px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-bottom: 15px;
+}
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #71d4d6;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: hsl(151, 33%, 52%);
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    background-color: #d4e5e9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #4A90E2;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #160909;
+    padding-bottom: 5px;
+}
+
+.experience-item {
+    margin-bottom: 20px;
+    background-color: #9fe1cd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    font-size: 1.5em;
+    color: #4A90E2;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #50E3C2;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #4A90E2;
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
+a {
+    color: #4A90E2;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #50E3C2;
+}
